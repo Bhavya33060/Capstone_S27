@@ -1,0 +1,51 @@
+What is Hospital Readmission?
+------------------------------
+A hospital readmission happens when a patient leaves the hospital after treatment (is discharged) but returns and gets admitted again within a certain period, usually 30 days.
+--------
+Example 
+--------
+Imagine a patient named Ramesh.
+
+Ramesh is admitted to the hospital because of heart failure.
+Doctors treat him for 5 days.
+His condition improves.
+The doctor says he is healthy enough to go home.
+He is discharged from the hospital.
+-----------
+Now suppose:
+-----------
+After 15 days, Ramesh starts having severe chest pain again.
+His family takes him back to the hospital.
+The doctors admit him again for treatment.
+
+This second admission is called a hospital readmission because it happened after he was discharged and within the defined period (30 days).
+
+--------------------------------
+What does "within a defined time window" mean?
+
+A time window is simply a fixed period after discharge during which hospitals monitor whether a patient comes back.
+
+Different studies use different time windows, such as:
+
+7-day readmission
+14-day readmission
+30-day readmission (most common)
+60-day readmission
+90-day readmission
+
+My project focuses on 30-day readmission because it is the most widely used standard in healthcare research.
+-------------------------------------------------
+-> What is 30-Day Readmission specifically?
+
+The 30-day window is the global standard (used by CMS, WHO-aligned health systems, and most research literature) because most preventable complications, medication issues, and care-transition failures surface within this period.
+
+-----------------------
+Why is readmission considered a problem?
+
+If a patient returns to the hospital soon after discharge, it may indicate that something went wrong.
+For example:
+
+1. The disease wasn't fully treated
+2. The patient didn't follow the treatment plan
+3. Poor post-discharge care
+4. New complications developed
