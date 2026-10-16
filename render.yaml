@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: citibike-analytics
+    runtime: node
+    plan: free
+    buildCommand: npm install --prefix server && npm install --include=dev --prefix client && npm run build --prefix client
+    startCommand: cd server && node server.js
+    healthCheckPath: /api/live-health
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: JWT_SECRET
+        generateValue: true
